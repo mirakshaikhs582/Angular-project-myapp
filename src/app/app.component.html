@@ -1,7 +1,13 @@
-<h2>programming books</h2>
-<ul>
-    <ng-container *ngFor="let book of books;let i=index">
-        <app-books (bookEmitter)="addToCard($event)" [book]="book"></app-books>
-    </ng-container>
-
-</ul>
+<nav class="flex justify-between p-4 bg-purple-900 text-white" >
+    <div>
+        <a routerLink="/book">My Cart</a>
+    </div>
+    <div>
+        <a class="mx-4" routerLink="/cart">My Cart</a>
+        <a class="mx-4" routerLink="/login">Login</a>
+        <a class="mx-4" routerLink="/register">Register</a>
+    </div>
+</nav>
+<div class="p-4">
+    <router-outlet></router-outlet>
+</div>

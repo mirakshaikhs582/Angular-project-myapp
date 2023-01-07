@@ -15,8 +15,4 @@ constructor(private booksService:BooksService){
     myName:string='';
 
     books:Book[]=[ ]
-addToCard(book:Book){
-    console.log(book);
-    
-}
 }
