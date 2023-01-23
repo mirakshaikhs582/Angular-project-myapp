@@ -16,14 +16,16 @@ export class AppComponent implements OnInit{
           initializeApp(firebaseConfig);
           this.books=this.booksService.getBooks();
       }
+      hide:boolean=false
       myName:string='';
-  
+
       books:Book[]=[ ]
       isAuthenticated(){
         return this.authService.isAuthenticated;
       }
       logout(){
         this.authService.logout();
+        // this.hide;
 
       }
   }

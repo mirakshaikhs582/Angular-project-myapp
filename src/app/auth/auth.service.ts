@@ -17,7 +17,7 @@ export class AuthService {
     const auth = getAuth();
     signInWithEmailAndPassword(auth, form.email, form.password)
       .then((userCredential) => {
-        this.isAuthenticated=true
+        this.isAuthenticated=true;
         this.router.navigate(['']);
       })
       .catch((error) => {

@@ -6,7 +6,7 @@ import { RegisterComponent } from "./auth/register/register.component";
 import { BookComponent } from "./book/book/book.component";
 import { CartComponent } from "./cart/cart/cart.component";
 const routes:Routes=[
-  {path:'',component:BookComponent},
+  {path:'',component:BookComponent },
   {path:'cart',component:CartComponent,canActivate:[AuthGuard]},
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent}

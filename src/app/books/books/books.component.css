@@ -1,0 +1,23 @@
+/* button{
+    cursor: pointer;
+    background-color: #450680;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px;
+}
+li p{
+    font-size: 15px;
+    font-weight: 300;
+}
+li{
+    background: rgb(174, 165, 229);
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
+li button:hover{
+    background: #826f94;
+
+} */
